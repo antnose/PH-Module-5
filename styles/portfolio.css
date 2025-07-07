@@ -162,3 +162,102 @@ main {
   font-size: 20px;
   font-weight: bold;
 }
+
+/* Summary Section */
+.education,
+.experience {
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.summary {
+  display: flex;
+  gap: 70px;
+}
+
+.summary_title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.edu_title,
+.exp_title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 1px;
+}
+
+.sub_title {
+  margin: 7px 0 40px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #757575;
+}
+
+.edu_description,
+.exp_description {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.cv_download_btn {
+  margin-top: 50px;
+}
+
+/* Footer Area */
+.footer {
+  background-color: #fff8f3;
+  height: 780px;
+  margin-top: 130px;
+}
+
+.footer_are {
+  display: flex;
+  justify-content: space-around;
+  padding: 130px 230px;
+}
+
+.footer_title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.footer_desc {
+  font-size: 18px;
+  color: #474747;
+  max-width: 562px;
+}
+
+.footer_img_section {
+  margin-top: 30px;
+  display: flex;
+  gap: 24px;
+}
+
+.inputSection {
+  display: block;
+  margin-top: 20px;
+  height: 64px;
+  width: 461px;
+  color: #757575;
+  font-size: 16px;
+  padding-left: 30px;
+  align-items: center;
+  border: none;
+}
+
+.mainMessage {
+  width: 461px;
+  height: 170px;
+  margin-top: 20px;
+  color: #757575;
+  padding-left: 30px;
+  padding-top: 20px;
+  border: none;
+}
+
+.footerBtn {
+  margin-top: 20px;
+  display: block;
+}
