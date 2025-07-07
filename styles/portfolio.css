@@ -133,3 +133,32 @@ main {
 .item_description {
   font-weight: bold;
 }
+
+.skills {
+  margin-top: 130px;
+  text-align: center;
+}
+
+.cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.card {
+  padding: 30px 33px 30px;
+  height: 290px;
+  width: 267px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: left;
+  margin: 0 auto;
+  box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card_title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: bold;
+}
